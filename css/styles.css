@@ -41,6 +41,7 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+
 .site-nav .link.current {
     color: var(--accent-color);
 }
@@ -50,7 +51,7 @@ body {
     color: var(--primary-text-color);
 }
 .site-cont .link:hover,
-.site-cont ,.link:focus {
+.site-cont .link:focus {
     color: var(--accent-color);
 }
 /* Главная секция*/
@@ -74,10 +75,31 @@ body {
 }
 
 /*Наша команда*/
-
+.fon-team {
+    background-color: #F5F4FA;
+}
 .team .team-title {
     color: var(--title-text-color);
 }
+
+/*footer*/
+.footer-page {
+    background-color: #2F303A;
+}
+.logofootStudio {
+    color: var(--primary-bg-color);
+}
+.address .address-maps {
+    color: var(--primary-bg-color);
+}
+.address .address-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address .link:hover,
+.address .link:focus {
+    color: var(--accent-color);
+}
+
 
 /*button*/
 .button {
