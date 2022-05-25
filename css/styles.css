@@ -159,7 +159,13 @@ body {
 .address .link:focus {
     color: var(--accent-color);
 }
-
+.contacts a {
+    text-decoration: none;
+    font-style:normal;
+    font-size: 14px;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
+}
 
 /*button*/
 
@@ -167,6 +173,10 @@ body {
     color: var(--title-text-color);
     background-color: var(--fon-btn-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;   
     
 }
 .main-name .link:hover,
@@ -181,11 +191,26 @@ body {
 .button.primary {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
-    
-    
+
+}
+.main-name .button.primary.link {
+    font-weight: 700;
 }
 
 /*Портфолио*/
 .work .work-titel {
     color: var(--title-text-color);
+}
+.work .section-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-align:left;
+    letter-spacing: 0.06em;
+}
+
+.work .work-about {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
