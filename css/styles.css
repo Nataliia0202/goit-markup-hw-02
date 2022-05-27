@@ -108,6 +108,7 @@ body {
 .benefits .benefits-title {
     color: var(--title-text-color);
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -167,13 +168,16 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
     
 }
 .main-name .link:hover,
 .main-name .link:focus {
-    color: var(--accent-color);
+    text-decoration: none;
+    background-color: var(--accent-color);
     background-color: #188CE8;
 }
+
 .filtr .link:hover, 
 .filtr .link:focus {
     color: var(--primary-bg-color);
@@ -182,11 +186,12 @@ body {
 .button.primary {
     color: var(--primary-bg-color);
     background-color: var(--accent-color);
+    font-weight: 700;
+    letter-spacing: 0.06em;
 
 }
-.main-name .button.primary.link {
-    font-weight: 700;
-}
+
+
 
 /*Портфолио*/
 .work .work-titel {
